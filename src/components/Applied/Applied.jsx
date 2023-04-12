@@ -16,7 +16,7 @@ const Applied = () => {
   return (
     <div className="mt-8 md:mx-20 mx-4 min-h-[calc(100vh-200px)] mb-6 lg:mx-36">
       <h1 className="text-center font-bold text-2xl">
-        {data.length !== 0 ? "Applied Jobs" : "No Applied"}
+        {data.length !== 0 ? "Applied Jobs" : "No Applied jobs"}
       </h1>
       <div className={data.length !== 0 ? "text-right mt-8 " : "hidden"}>
         <button
