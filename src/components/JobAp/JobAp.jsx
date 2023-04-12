@@ -30,7 +30,7 @@ const JobAp = ({ card }) => {
               <button className="border ml-4 py-2 px-4 bg-transparent text-green-600 font-semibold  border-green-600 rounded hover:bg-green-600 hover:text-white hover:border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">
                 {remote_or_onsite}
               </button>
-              <button className="border ml-4 py-2 px-4 bg-transparent text-green-600 font-semibold  border-red-600 rounded hover:bg-red-600 hover:text-white hover:border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">
+              <button className="border ml-4 py-2 px-4 bg-transparent text-green-600 font-semibold  border-red-600 rounded hover:bg-red-700 hover:text-white hover:border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">
                 {fulltime_or_parttime}
               </button>
             </div>
