@@ -46,8 +46,10 @@ const Statistics = () => {
     },
   ];
     return (
-      <div className="mx-auto mb-10" style={{ width: '80%', height: '50%'}}>
-        <p className=" mt-8 font-bold text-xl flex justify-center">My All Assignment Mark SynchronizedAreaChart</p>
+      <div className="mx-auto mb-10" style={{ width: "80%", height: "50%" }}>
+        <p className=" mt-8  text-2xl flex justify-center animate-text bg-gradient-to-r from-teal-700 via-purple-700 to-orange-700 bg-clip-text text-transparent  font-black">
+          My All Assignment Mark SynchronizedAreaChart
+        </p>
 
         <ResponsiveContainer className="mt-16" width="100%" height={400}>
           <AreaChart
@@ -66,7 +68,12 @@ const Statistics = () => {
             <XAxis dataKey="name" />
             <YAxis />
             <Tooltip />
-            <Area type="monotone" dataKey="mark" stroke="#81ca9d" fill="#82ca9d" />
+            <Area
+              type="monotone"
+              dataKey="mark"
+              stroke="#81ca9d"
+              fill="#82ca9d"
+            />
           </AreaChart>
         </ResponsiveContainer>
       </div>
