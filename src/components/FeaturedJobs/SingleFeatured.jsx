@@ -20,7 +20,7 @@ const SingleFeatured = ({ job }) => {
   
 
   return (
-    <div className="border-2 pt-10 rounded-lg hover:bg-gray-50 border-gray-300 pl-14 pb-10">
+    <div className="border-2 pt-10 rounded-lg hover:bg-gray-200 border-gray-300 pl-14 pb-10">
       <img className="h-18 w-40" src={company_logo} alt="" />
       <h1 className="font-bold text-2xl mt-4">{job_title}</h1>
       <p className="text-xl">{company_name}</p>
