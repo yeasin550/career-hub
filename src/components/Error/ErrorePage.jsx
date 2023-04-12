@@ -7,7 +7,7 @@ const ErrorePage = () => {
         <div className="container flex flex-col items-center justify-center px-5 mx-auto my-8">
           <div className="max-w-md text-center">
             <h2 className="mb-8 font-extrabold text-3xl dark:text-gray-600">
-              <span className="sr-only text-red-600">Error</span>404
+              <span className="sr-only text-red-600">Error</span>!!!404!!!!😢
               <br />
               <i className="text-red-600">
                 {error.statusText || error.message}
