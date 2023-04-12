@@ -28,7 +28,7 @@ const FeaturedJobs = () => {
       <h1 className="text-4xl text-center font-bold">Featured Jobs</h1>
       <p className="text-center text-xl mt-3">
         Explore thousands of job opportunities with all the information you
-        need. Its your future.
+        need. Its your future. 
       </p>
 
       <div className="grid md:mx-20 mx-4  mb-6 lg:mx-36 gap-6 mt-6 lg:grid-cols-2">

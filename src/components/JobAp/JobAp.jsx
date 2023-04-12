@@ -27,10 +27,10 @@ const JobAp = ({ card }) => {
             <h1 className="text-xl font-bold">{job_title}</h1>
             <p className="">{company_name}</p>
             <div className="flex mt-4">
-              <button className="border py-1 px-4 rounded-sm text-blue-600  border-blue-500">
+              <button className="border ml-4 py-2 px-4 bg-transparent text-green-600 font-semibold  border-green-600 rounded hover:bg-green-600 hover:text-white hover:border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">
                 {remote_or_onsite}
               </button>
-              <button className="border py-1 px-4 rounded-sm text-blue-600  border-blue-500 ml-3">
+              <button className="border ml-4 py-2 px-4 bg-transparent text-green-600 font-semibold  border-red-600 rounded hover:bg-red-600 hover:text-white hover:border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">
                 {fulltime_or_parttime}
               </button>
             </div>
