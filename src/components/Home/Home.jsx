@@ -20,7 +20,7 @@ const Home = () => {
           <div className="lg:order-1 mx-2  my-auto">
             <h1 className="text-5xl  font-bold">
               You Can Get A Step Closer To Your <br />
-              <span className="text-blue-500">Dream Job ?</span>
+              <span className="text-purple-500">Dream Job ?</span>
             </h1>
             <p className="my-4 text-xl">
               A successful interview depends on various factors, from what steps
