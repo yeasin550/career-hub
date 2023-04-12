@@ -17,7 +17,7 @@ const JobCata = () => {
           purpose, job duties and responsibilities, required qualifications,
           preferred qualifications, and working condition
         </p>
-        <div className="mt-6 grid grid-cols-2 gap-4 lg:gap-4 mx-auto lg:grid-cols-4">
+        <div className="mt-6 grid sm:grid-cols-1 sm:mt-5 gap-4 lg:gap-4 mx-auto lg:grid-cols-4">
           {jobs.map((jobC, i) => (
             <Cartj key={i} cart={jobC} />
           ))}

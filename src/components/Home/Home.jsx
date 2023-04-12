@@ -17,7 +17,7 @@ const Home = () => {
               alt=""
             />
           </div>
-          <div className="lg:order-1 mx-2  my-auto">
+          <div className="lg:order-1 mx-2 my-auto">
             <h1 className="text-5xl  font-bold">
               How To Find Your Dream Position in one 
               <br />
