@@ -18,7 +18,7 @@ const JobDetails = () => {
   const jobsDetails = data?.find((p) => p.id === parseInt(id));
   // console.log(jobsDetails);
   const notify = (id) =>{
-    toast.success('Your Job Applied successfully')
+    toast.success('Your Job Applied successfully Added')
     addToDb(id)
   };
   const {
